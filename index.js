@@ -31,7 +31,7 @@ auth(app);
 post(app);
 
 function pingLink() {
-    const linkToPing = 'https://echochamber-backend-77jt.onrender.com/test'; // Replace with the link you want to ping
+    const linkToPing = 'https://echochamber-backend-dgg0.onrender.com/test'; // Replace with the link you want to ping
     let data = axios.get(linkToPing)
     data.then(res => { })
 
